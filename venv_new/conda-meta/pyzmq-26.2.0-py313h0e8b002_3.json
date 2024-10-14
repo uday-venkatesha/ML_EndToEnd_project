@@ -1,0 +1,1327 @@
+{
+  "build": "py313h0e8b002_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "libcxx >=17",
+    "libsodium >=1.0.20,<1.0.21.0a0",
+    "python >=3.13,<3.14.0a0",
+    "python >=3.13,<3.14.0a0 *_cp313",
+    "python_abi 3.13.* *_cp313",
+    "zeromq >=4.3.5,<4.4.0a0"
+  ],
+  "extracted_package_dir": "/Users/udayvenkatesha/anaconda3/pkgs/pyzmq-26.2.0-py313h0e8b002_3",
+  "files": [
+    "lib/python3.13/site-packages/pyzmq-26.2.0.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/pyzmq-26.2.0.dist-info/METADATA",
+    "lib/python3.13/site-packages/pyzmq-26.2.0.dist-info/RECORD",
+    "lib/python3.13/site-packages/pyzmq-26.2.0.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/pyzmq-26.2.0.dist-info/WHEEL",
+    "lib/python3.13/site-packages/pyzmq-26.2.0.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/pyzmq-26.2.0.dist-info/licenses/LICENSE.md",
+    "lib/python3.13/site-packages/zmq/__init__.pxd",
+    "lib/python3.13/site-packages/zmq/__init__.py",
+    "lib/python3.13/site-packages/zmq/__init__.pyi",
+    "lib/python3.13/site-packages/zmq/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/__pycache__/_future.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/__pycache__/_typing.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/__pycache__/asyncio.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/__pycache__/constants.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/__pycache__/decorators.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/__pycache__/error.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/_future.py",
+    "lib/python3.13/site-packages/zmq/_typing.py",
+    "lib/python3.13/site-packages/zmq/asyncio.py",
+    "lib/python3.13/site-packages/zmq/auth/__init__.py",
+    "lib/python3.13/site-packages/zmq/auth/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/auth/__pycache__/asyncio.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/auth/__pycache__/base.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/auth/__pycache__/certs.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/auth/__pycache__/ioloop.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/auth/__pycache__/thread.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/auth/asyncio.py",
+    "lib/python3.13/site-packages/zmq/auth/base.py",
+    "lib/python3.13/site-packages/zmq/auth/certs.py",
+    "lib/python3.13/site-packages/zmq/auth/ioloop.py",
+    "lib/python3.13/site-packages/zmq/auth/thread.py",
+    "lib/python3.13/site-packages/zmq/backend/__init__.py",
+    "lib/python3.13/site-packages/zmq/backend/__init__.pyi",
+    "lib/python3.13/site-packages/zmq/backend/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/backend/__pycache__/select.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/backend/cffi/README.md",
+    "lib/python3.13/site-packages/zmq/backend/cffi/__init__.py",
+    "lib/python3.13/site-packages/zmq/backend/cffi/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/backend/cffi/__pycache__/_poll.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/backend/cffi/__pycache__/context.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/backend/cffi/__pycache__/devices.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/backend/cffi/__pycache__/error.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/backend/cffi/__pycache__/message.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/backend/cffi/__pycache__/socket.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/backend/cffi/__pycache__/utils.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/backend/cffi/_cdefs.h",
+    "lib/python3.13/site-packages/zmq/backend/cffi/_cffi_src.c",
+    "lib/python3.13/site-packages/zmq/backend/cffi/_poll.py",
+    "lib/python3.13/site-packages/zmq/backend/cffi/context.py",
+    "lib/python3.13/site-packages/zmq/backend/cffi/devices.py",
+    "lib/python3.13/site-packages/zmq/backend/cffi/error.py",
+    "lib/python3.13/site-packages/zmq/backend/cffi/message.py",
+    "lib/python3.13/site-packages/zmq/backend/cffi/socket.py",
+    "lib/python3.13/site-packages/zmq/backend/cffi/utils.py",
+    "lib/python3.13/site-packages/zmq/backend/cython/__init__.pxd",
+    "lib/python3.13/site-packages/zmq/backend/cython/__init__.py",
+    "lib/python3.13/site-packages/zmq/backend/cython/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/backend/cython/__pycache__/_zmq.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/backend/cython/_externs.pxd",
+    "lib/python3.13/site-packages/zmq/backend/cython/_zmq.cpython-313-darwin.so",
+    "lib/python3.13/site-packages/zmq/backend/cython/_zmq.pxd",
+    "lib/python3.13/site-packages/zmq/backend/cython/_zmq.py",
+    "lib/python3.13/site-packages/zmq/backend/cython/constant_enums.pxi",
+    "lib/python3.13/site-packages/zmq/backend/cython/libzmq.pxd",
+    "lib/python3.13/site-packages/zmq/backend/select.py",
+    "lib/python3.13/site-packages/zmq/constants.py",
+    "lib/python3.13/site-packages/zmq/decorators.py",
+    "lib/python3.13/site-packages/zmq/devices/__init__.py",
+    "lib/python3.13/site-packages/zmq/devices/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/devices/__pycache__/basedevice.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/devices/__pycache__/monitoredqueue.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/devices/__pycache__/monitoredqueuedevice.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/devices/__pycache__/proxydevice.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/devices/__pycache__/proxysteerabledevice.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/devices/basedevice.py",
+    "lib/python3.13/site-packages/zmq/devices/monitoredqueue.py",
+    "lib/python3.13/site-packages/zmq/devices/monitoredqueuedevice.py",
+    "lib/python3.13/site-packages/zmq/devices/proxydevice.py",
+    "lib/python3.13/site-packages/zmq/devices/proxysteerabledevice.py",
+    "lib/python3.13/site-packages/zmq/error.py",
+    "lib/python3.13/site-packages/zmq/eventloop/__init__.py",
+    "lib/python3.13/site-packages/zmq/eventloop/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/eventloop/__pycache__/_deprecated.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/eventloop/__pycache__/future.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/eventloop/__pycache__/ioloop.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/eventloop/__pycache__/zmqstream.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/eventloop/_deprecated.py",
+    "lib/python3.13/site-packages/zmq/eventloop/future.py",
+    "lib/python3.13/site-packages/zmq/eventloop/ioloop.py",
+    "lib/python3.13/site-packages/zmq/eventloop/zmqstream.py",
+    "lib/python3.13/site-packages/zmq/green/__init__.py",
+    "lib/python3.13/site-packages/zmq/green/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/green/__pycache__/core.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/green/__pycache__/device.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/green/__pycache__/poll.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/green/core.py",
+    "lib/python3.13/site-packages/zmq/green/device.py",
+    "lib/python3.13/site-packages/zmq/green/eventloop/__init__.py",
+    "lib/python3.13/site-packages/zmq/green/eventloop/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/green/eventloop/__pycache__/ioloop.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/green/eventloop/__pycache__/zmqstream.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/green/eventloop/ioloop.py",
+    "lib/python3.13/site-packages/zmq/green/eventloop/zmqstream.py",
+    "lib/python3.13/site-packages/zmq/green/poll.py",
+    "lib/python3.13/site-packages/zmq/log/__init__.py",
+    "lib/python3.13/site-packages/zmq/log/__main__.py",
+    "lib/python3.13/site-packages/zmq/log/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/log/__pycache__/__main__.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/log/__pycache__/handlers.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/log/handlers.py",
+    "lib/python3.13/site-packages/zmq/py.typed",
+    "lib/python3.13/site-packages/zmq/ssh/__init__.py",
+    "lib/python3.13/site-packages/zmq/ssh/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/ssh/__pycache__/forward.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/ssh/__pycache__/tunnel.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/ssh/forward.py",
+    "lib/python3.13/site-packages/zmq/ssh/tunnel.py",
+    "lib/python3.13/site-packages/zmq/sugar/__init__.py",
+    "lib/python3.13/site-packages/zmq/sugar/__init__.pyi",
+    "lib/python3.13/site-packages/zmq/sugar/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/sugar/__pycache__/attrsettr.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/sugar/__pycache__/context.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/sugar/__pycache__/frame.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/sugar/__pycache__/poll.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/sugar/__pycache__/socket.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/sugar/__pycache__/stopwatch.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/sugar/__pycache__/tracker.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/sugar/__pycache__/version.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/sugar/attrsettr.py",
+    "lib/python3.13/site-packages/zmq/sugar/context.py",
+    "lib/python3.13/site-packages/zmq/sugar/frame.py",
+    "lib/python3.13/site-packages/zmq/sugar/poll.py",
+    "lib/python3.13/site-packages/zmq/sugar/socket.py",
+    "lib/python3.13/site-packages/zmq/sugar/stopwatch.py",
+    "lib/python3.13/site-packages/zmq/sugar/tracker.py",
+    "lib/python3.13/site-packages/zmq/sugar/version.py",
+    "lib/python3.13/site-packages/zmq/tests/__init__.py",
+    "lib/python3.13/site-packages/zmq/tests/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/utils/__init__.py",
+    "lib/python3.13/site-packages/zmq/utils/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/utils/__pycache__/garbage.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/utils/__pycache__/interop.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/utils/__pycache__/jsonapi.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/utils/__pycache__/monitor.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/utils/__pycache__/strtypes.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/utils/__pycache__/win32.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/utils/__pycache__/z85.cpython-313.pyc",
+    "lib/python3.13/site-packages/zmq/utils/buffers.pxd",
+    "lib/python3.13/site-packages/zmq/utils/garbage.py",
+    "lib/python3.13/site-packages/zmq/utils/getpid_compat.h",
+    "lib/python3.13/site-packages/zmq/utils/interop.py",
+    "lib/python3.13/site-packages/zmq/utils/ipcmaxlen.h",
+    "lib/python3.13/site-packages/zmq/utils/jsonapi.py",
+    "lib/python3.13/site-packages/zmq/utils/monitor.py",
+    "lib/python3.13/site-packages/zmq/utils/mutex.h",
+    "lib/python3.13/site-packages/zmq/utils/pyversion_compat.h",
+    "lib/python3.13/site-packages/zmq/utils/strtypes.py",
+    "lib/python3.13/site-packages/zmq/utils/win32.py",
+    "lib/python3.13/site-packages/zmq/utils/z85.py",
+    "lib/python3.13/site-packages/zmq/utils/zmq_compat.h"
+  ],
+  "fn": "pyzmq-26.2.0-py313h0e8b002_3.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/udayvenkatesha/anaconda3/pkgs/pyzmq-26.2.0-py313h0e8b002_3",
+    "type": 1
+  },
+  "md5": "9fb8f1294d8c5a300c2f76e46f830b01",
+  "name": "pyzmq",
+  "package_tarball_full_path": "/Users/udayvenkatesha/anaconda3/pkgs/pyzmq-26.2.0-py313h0e8b002_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.13/site-packages/pyzmq-26.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.13/site-packages/pyzmq-26.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "25138b745624cdc7a00fd66fe552879c9a0ae27413d3ea1ab9459e0bfa4dd6b1",
+        "sha256_in_prefix": "25138b745624cdc7a00fd66fe552879c9a0ae27413d3ea1ab9459e0bfa4dd6b1",
+        "size_in_bytes": 6175
+      },
+      {
+        "_path": "lib/python3.13/site-packages/pyzmq-26.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ddb0900f5e328009796402bbf3651107d90b836529c8996c4f109fc8bdfe03b9",
+        "sha256_in_prefix": "ddb0900f5e328009796402bbf3651107d90b836529c8996c4f109fc8bdfe03b9",
+        "size_in_bytes": 10939
+      },
+      {
+        "_path": "lib/python3.13/site-packages/pyzmq-26.2.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.13/site-packages/pyzmq-26.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3c9ccb386af55106d527d0a5267c2a8858679725988d2b3236079b9cb80840a8",
+        "sha256_in_prefix": "3c9ccb386af55106d527d0a5267c2a8858679725988d2b3236079b9cb80840a8",
+        "size_in_bytes": 114
+      },
+      {
+        "_path": "lib/python3.13/site-packages/pyzmq-26.2.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "4794cbe09d3663020a28e2a897e130f621bd489c1dfdce992f2d3e4fe152d2e8",
+        "sha256_in_prefix": "4794cbe09d3663020a28e2a897e130f621bd489c1dfdce992f2d3e4fe152d2e8",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "lib/python3.13/site-packages/pyzmq-26.2.0.dist-info/licenses/LICENSE.md",
+        "path_type": "hardlink",
+        "sha256": "c0cf5f5c03f8d6772f7a271df1cb671054578bd3d79527c72fc1f28f8cc72a7a",
+        "sha256_in_prefix": "c0cf5f5c03f8d6772f7a271df1cb671054578bd3d79527c72fc1f28f8cc72a7a",
+        "size_in_bytes": 1545
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/__init__.pxd",
+        "path_type": "hardlink",
+        "sha256": "3f6cb907ff670c1ff4443ee1c5b5e9566e0989ad6b29c9539e7515ad26c5e251",
+        "sha256_in_prefix": "3f6cb907ff670c1ff4443ee1c5b5e9566e0989ad6b29c9539e7515ad26c5e251",
+        "size_in_bytes": 63
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d3353174df660ba9812403a405fb08e1e9bcae81dbbc7d1a7c741362c3058d70",
+        "sha256_in_prefix": "d3353174df660ba9812403a405fb08e1e9bcae81dbbc7d1a7c741362c3058d70",
+        "size_in_bytes": 2232
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "e0924618abbd215b115444b78cdaf6fccac75c0f425baae302266a2c668a9aaf",
+        "sha256_in_prefix": "e0924618abbd215b115444b78cdaf6fccac75c0f425baae302266a2c668a9aaf",
+        "size_in_bytes": 960
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "5d01b239f5a7b4fff3b6ea70bafc61a2313fc43d488018814d0970b5e2159d66",
+        "sha256_in_prefix": "5d01b239f5a7b4fff3b6ea70bafc61a2313fc43d488018814d0970b5e2159d66",
+        "size_in_bytes": 3502
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/__pycache__/_future.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "3a75802d6e87103127d65dc833a7a5e0b98cbb674bd052d643a9dd400b0cc53f",
+        "sha256_in_prefix": "3a75802d6e87103127d65dc833a7a5e0b98cbb674bd052d643a9dd400b0cc53f",
+        "size_in_bytes": 31596
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/__pycache__/_typing.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "da8e77eb798e6a4d22271d5b4956eb8ce99777d7ca02126c0336717e21b059d8",
+        "sha256_in_prefix": "da8e77eb798e6a4d22271d5b4956eb8ce99777d7ca02126c0336717e21b059d8",
+        "size_in_bytes": 1261
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/__pycache__/asyncio.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "b83ff024f5ddbcbbc52c94bd872f57d245b674de3959f4c3773a6b0fd4324991",
+        "sha256_in_prefix": "b83ff024f5ddbcbbc52c94bd872f57d245b674de3959f4c3773a6b0fd4324991",
+        "size_in_bytes": 8799
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/__pycache__/constants.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "16a24fcdbe27a80be31d657c3dbddf89d03a8c8256d2a3fd148557d07134f7bc",
+        "sha256_in_prefix": "16a24fcdbe27a80be31d657c3dbddf89d03a8c8256d2a3fd148557d07134f7bc",
+        "size_in_bytes": 31926
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/__pycache__/decorators.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "291c9e238adf225cb3a83dcc08a0bcf8adccc64f96a6febabb6ddfa8b2a40761",
+        "sha256_in_prefix": "291c9e238adf225cb3a83dcc08a0bcf8adccc64f96a6febabb6ddfa8b2a40761",
+        "size_in_bytes": 6752
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/__pycache__/error.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "2487bd2fdf9fccdd75f0d9a21fb082cbf838c90a76526ca44f499613b9081ffe",
+        "sha256_in_prefix": "2487bd2fdf9fccdd75f0d9a21fb082cbf838c90a76526ca44f499613b9081ffe",
+        "size_in_bytes": 7553
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/_future.py",
+        "path_type": "hardlink",
+        "sha256": "a63c5753cf24dd085d11b2a9113e69a69cd77e1fcabbc1a4be1835e8787170f0",
+        "sha256_in_prefix": "a63c5753cf24dd085d11b2a9113e69a69cd77e1fcabbc1a4be1835e8787170f0",
+        "size_in_bytes": 24919
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/_typing.py",
+        "path_type": "hardlink",
+        "sha256": "893996328ff113b3d0f45440e08ff98298f66122f40b6f6f4f3ff61fe4efb62a",
+        "sha256_in_prefix": "893996328ff113b3d0f45440e08ff98298f66122f40b6f6f4f3ff61fe4efb62a",
+        "size_in_bytes": 720
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/asyncio.py",
+        "path_type": "hardlink",
+        "sha256": "4ab5901841d5766b2c0d0b5001b3e00ea66098e42ea216394dce31669fcf250e",
+        "sha256_in_prefix": "4ab5901841d5766b2c0d0b5001b3e00ea66098e42ea216394dce31669fcf250e",
+        "size_in_bytes": 6266
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/auth/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0f45c98cf26037466a4812c3adb2e6de5dcde69310b7be69bfc2f279aae1b0cf",
+        "sha256_in_prefix": "0f45c98cf26037466a4812c3adb2e6de5dcde69310b7be69bfc2f279aae1b0cf",
+        "size_in_bytes": 346
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/auth/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "12167cbaf2be59312650c469975f47e8e67afa15098126ba8285664ef80092ce",
+        "sha256_in_prefix": "12167cbaf2be59312650c469975f47e8e67afa15098126ba8285664ef80092ce",
+        "size_in_bytes": 514
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/auth/__pycache__/asyncio.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "344ba83d379c9d00cce3eef93b201244657801e50a63b78b7edac784f6a0bc3b",
+        "sha256_in_prefix": "344ba83d379c9d00cce3eef93b201244657801e50a63b78b7edac784f6a0bc3b",
+        "size_in_bytes": 3422
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/auth/__pycache__/base.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "e0fd746056ba280c4775d79e4dd3045040dc793792b75d181f3afb3a4b649560",
+        "sha256_in_prefix": "e0fd746056ba280c4775d79e4dd3045040dc793792b75d181f3afb3a4b649560",
+        "size_in_bytes": 17768
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/auth/__pycache__/certs.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "b7c5632bef7efd9e7e89e101b07982ea96d762d87db66cec72e7ba871336d6ec",
+        "sha256_in_prefix": "b7c5632bef7efd9e7e89e101b07982ea96d762d87db66cec72e7ba871336d6ec",
+        "size_in_bytes": 6063
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/auth/__pycache__/ioloop.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e4f2dea5cbdf20b18374ea144801277bfee12c9068ff4f366d76a4c81d6f53a",
+        "sha256_in_prefix": "2e4f2dea5cbdf20b18374ea144801277bfee12c9068ff4f366d76a4c81d6f53a",
+        "size_in_bytes": 1845
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/auth/__pycache__/thread.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "fb1ddbc62c77056c3092e712dc011ce2b35112b4af6c216f84acc6e942f42423",
+        "sha256_in_prefix": "fb1ddbc62c77056c3092e712dc011ce2b35112b4af6c216f84acc6e942f42423",
+        "size_in_bytes": 7592
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/auth/asyncio.py",
+        "path_type": "hardlink",
+        "sha256": "28b0f42b07afeb576722656170b9842abf8fc130aa232bab5a3b384ae1f8e360",
+        "sha256_in_prefix": "28b0f42b07afeb576722656170b9842abf8fc130aa232bab5a3b384ae1f8e360",
+        "size_in_bytes": 1799
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/auth/base.py",
+        "path_type": "hardlink",
+        "sha256": "38f4c1e7c9d379824bf9bbbd6c76b895750208cc33a3b730961c51b870637746",
+        "sha256_in_prefix": "38f4c1e7c9d379824bf9bbbd6c76b895750208cc33a3b730961c51b870637746",
+        "size_in_bytes": 16337
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/auth/certs.py",
+        "path_type": "hardlink",
+        "sha256": "d25c8fa86de8fae708fd4bc25698a1c53d7457dfa12897328b952ce2dad5191d",
+        "sha256_in_prefix": "d25c8fa86de8fae708fd4bc25698a1c53d7457dfa12897328b952ce2dad5191d",
+        "size_in_bytes": 4329
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/auth/ioloop.py",
+        "path_type": "hardlink",
+        "sha256": "c5717a3fc03e1d99577c860c56ff015bc108fc7d8f8eb2451776ba023bddd6b2",
+        "sha256_in_prefix": "c5717a3fc03e1d99577c860c56ff015bc108fc7d8f8eb2451776ba023bddd6b2",
+        "size_in_bytes": 1298
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/auth/thread.py",
+        "path_type": "hardlink",
+        "sha256": "9afd4d7d3c4923274b84890a744c4f543756a5c6dccd40ec848b182d4ce14a42",
+        "sha256_in_prefix": "9afd4d7d3c4923274b84890a744c4f543756a5c6dccd40ec848b182d4ce14a42",
+        "size_in_bytes": 4103
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e4f7dc21fa48cf11887a039a1db3b77418a50736f2de5d32282d28fd07f59b70",
+        "sha256_in_prefix": "e4f7dc21fa48cf11887a039a1db3b77418a50736f2de5d32282d28fd07f59b70",
+        "size_in_bytes": 940
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "343c3b02173caa38d0816f8c22a9ffa38ad6bac2bab250824e97b20696d7a197",
+        "sha256_in_prefix": "343c3b02173caa38d0816f8c22a9ffa38ad6bac2bab250824e97b20696d7a197",
+        "size_in_bytes": 3379
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "d04cd3813bc9ebcd1ee6e0dfcda37bbfb5319a3ea1d454af81088752d20f0859",
+        "sha256_in_prefix": "d04cd3813bc9ebcd1ee6e0dfcda37bbfb5319a3ea1d454af81088752d20f0859",
+        "size_in_bytes": 1096
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/__pycache__/select.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "98e28984cbd447c83afc78843674e43968e3ba248e224794735a329feb370751",
+        "sha256_in_prefix": "98e28984cbd447c83afc78843674e43968e3ba248e224794735a329feb370751",
+        "size_in_bytes": 1211
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cffi/README.md",
+        "path_type": "hardlink",
+        "sha256": "bbbccd912ddd2402d13f3a603efe6ce10d6d2247af9b404ccd5a5cc190f43e83",
+        "sha256_in_prefix": "bbbccd912ddd2402d13f3a603efe6ce10d6d2247af9b404ccd5a5cc190f43e83",
+        "size_in_bytes": 95
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cffi/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7a609f468f83c531b799a7ec101129217f86305514a5a8c7a6f492a72075d70d",
+        "sha256_in_prefix": "7a609f468f83c531b799a7ec101129217f86305514a5a8c7a6f492a72075d70d",
+        "size_in_bytes": 833
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cffi/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "72432ab6f4b6ec630e90392a5506fc740518e15ac82f450289a63733c562788c",
+        "sha256_in_prefix": "72432ab6f4b6ec630e90392a5506fc740518e15ac82f450289a63733c562788c",
+        "size_in_bytes": 1277
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cffi/__pycache__/_poll.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a412105f77d636acb8ff00e9ac76b067b9cc64759e4cf03e01d718a18df92ce",
+        "sha256_in_prefix": "6a412105f77d636acb8ff00e9ac76b067b9cc64759e4cf03e01d718a18df92ce",
+        "size_in_bytes": 3449
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cffi/__pycache__/context.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "4d9aa7ec304307649c08fc47a7dd4755ecafef02645550407d9f4ff318a7c4a9",
+        "sha256_in_prefix": "4d9aa7ec304307649c08fc47a7dd4755ecafef02645550407d9f4ff318a7c4a9",
+        "size_in_bytes": 3141
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cffi/__pycache__/devices.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "26b7f5adb23f8f73c5099bf162c9d4612517b20d756f6fa7dbb5ada4475a8099",
+        "sha256_in_prefix": "26b7f5adb23f8f73c5099bf162c9d4612517b20d756f6fa7dbb5ada4475a8099",
+        "size_in_bytes": 2049
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cffi/__pycache__/error.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "62f60a6b1a4fc53fe8e5f144cc28033daac3c7121eb27553dc428b937fa91833",
+        "sha256_in_prefix": "62f60a6b1a4fc53fe8e5f144cc28033daac3c7121eb27553dc428b937fa91833",
+        "size_in_bytes": 714
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cffi/__pycache__/message.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "948cb8cc081d1f68360078820138ad86f1c73b9496c6b41e1900a9e768cdc6f6",
+        "sha256_in_prefix": "948cb8cc081d1f68360078820138ad86f1c73b9496c6b41e1900a9e768cdc6f6",
+        "size_in_bytes": 8962
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cffi/__pycache__/socket.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "05421b73f5d9f36b8e41a5ce736bba415210a6ffe088ecae075ddf78c5e7055f",
+        "sha256_in_prefix": "05421b73f5d9f36b8e41a5ce736bba415210a6ffe088ecae075ddf78c5e7055f",
+        "size_in_bytes": 16993
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cffi/__pycache__/utils.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "279773fd3eb9dbec428752e1f5d4ddc83d6bd6ae3e8d1a24a04bb2761c8a264b",
+        "sha256_in_prefix": "279773fd3eb9dbec428752e1f5d4ddc83d6bd6ae3e8d1a24a04bb2761c8a264b",
+        "size_in_bytes": 2980
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cffi/_cdefs.h",
+        "path_type": "hardlink",
+        "sha256": "023c3e4b1c39c2ff73928d32064a848bb4d97379ee112bf5cf56eec32d69a507",
+        "sha256_in_prefix": "023c3e4b1c39c2ff73928d32064a848bb4d97379ee112bf5cf56eec32d69a507",
+        "size_in_bytes": 2639
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cffi/_cffi_src.c",
+        "path_type": "hardlink",
+        "sha256": "003c47c1d60b463b117fcbeec8e2bc95b1e25d38e06dfa222303a36ab150f1db",
+        "sha256_in_prefix": "003c47c1d60b463b117fcbeec8e2bc95b1e25d38e06dfa222303a36ab150f1db",
+        "size_in_bytes": 1314
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cffi/_poll.py",
+        "path_type": "hardlink",
+        "sha256": "9e212e3bce7f7cb6d19ed10b5aed24f3da8b89c24f8278ab5f5ddf4e7c3422b7",
+        "sha256_in_prefix": "9e212e3bce7f7cb6d19ed10b5aed24f3da8b89c24f8278ab5f5ddf4e7c3422b7",
+        "size_in_bytes": 2884
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cffi/context.py",
+        "path_type": "hardlink",
+        "sha256": "74aa154b45496b403537797d2d8191a189512e69876628269cc859c87b0ffa30",
+        "sha256_in_prefix": "74aa154b45496b403537797d2d8191a189512e69876628269cc859c87b0ffa30",
+        "size_in_bytes": 1899
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cffi/devices.py",
+        "path_type": "hardlink",
+        "sha256": "15cd7d99a6761c0d2a95c3fb9dadba7c16fef95f5b89b2093e85ef6262a7c6f9",
+        "sha256_in_prefix": "15cd7d99a6761c0d2a95c3fb9dadba7c16fef95f5b89b2093e85ef6262a7c6f9",
+        "size_in_bytes": 1572
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cffi/error.py",
+        "path_type": "hardlink",
+        "sha256": "00ef9069eb1c79294a4d620b8e0ce1afa3eb7df13c850b0f6452dbc50ded22a1",
+        "sha256_in_prefix": "00ef9069eb1c79294a4d620b8e0ce1afa3eb7df13c850b0f6452dbc50ded22a1",
+        "size_in_bytes": 380
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cffi/message.py",
+        "path_type": "hardlink",
+        "sha256": "afaa1be39352fd9421f685a8fe7f6284194ef629def8e766b76053da55e13d17",
+        "sha256_in_prefix": "afaa1be39352fd9421f685a8fe7f6284194ef629def8e766b76053da55e13d17",
+        "size_in_bytes": 6488
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cffi/socket.py",
+        "path_type": "hardlink",
+        "sha256": "7c3f494c5251c56f25d263bc6ed27e3072d74e6f23bb121e1fbe17eaf14bd877",
+        "sha256_in_prefix": "7c3f494c5251c56f25d263bc6ed27e3072d74e6f23bb121e1fbe17eaf14bd877",
+        "size_in_bytes": 11423
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cffi/utils.py",
+        "path_type": "hardlink",
+        "sha256": "c5e3eb60a1f2d0feefaf7b38f6de27c73eef0fdcc271f7bf00b43e90bdc367f5",
+        "sha256_in_prefix": "c5e3eb60a1f2d0feefaf7b38f6de27c73eef0fdcc271f7bf00b43e90bdc367f5",
+        "size_in_bytes": 2086
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cython/__init__.pxd",
+        "path_type": "hardlink",
+        "sha256": "89182cacd63cfb2117dd42fcde3147ce248f69589b671faa96d4d771855433d6",
+        "sha256_in_prefix": "89182cacd63cfb2117dd42fcde3147ce248f69589b671faa96d4d771855433d6",
+        "size_in_bytes": 60
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cython/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "48cb84f0602db2610c58d1abbfe66541972e4c3dc4554f37f04d558911cb0cd2",
+        "sha256_in_prefix": "48cb84f0602db2610c58d1abbfe66541972e4c3dc4554f37f04d558911cb0cd2",
+        "size_in_bytes": 322
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cython/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "e3012080bce02a893c5960724880d6a73b65c3a6d342cd18a61495d6f0dac4c1",
+        "sha256_in_prefix": "e3012080bce02a893c5960724880d6a73b65c3a6d342cd18a61495d6f0dac4c1",
+        "size_in_bytes": 458
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cython/__pycache__/_zmq.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "388d882dcc012a6000e5db76f22425aff40c73d09c100649ae16602885f3275a",
+        "sha256_in_prefix": "388d882dcc012a6000e5db76f22425aff40c73d09c100649ae16602885f3275a",
+        "size_in_bytes": 61676
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cython/_externs.pxd",
+        "path_type": "hardlink",
+        "sha256": "d04334d2fef7ffb069ffd678a9c0aec1ed08220a0f81ab588075fdc2b8e16c91",
+        "sha256_in_prefix": "d04334d2fef7ffb069ffd678a9c0aec1ed08220a0f81ab588075fdc2b8e16c91",
+        "size_in_bytes": 339
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cython/_zmq.cpython-313-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "657e7d8aba5440ed0c38baf481b20580a4fc7dcc23c6ac74d0656cee0a02a65b",
+        "sha256_in_prefix": "657e7d8aba5440ed0c38baf481b20580a4fc7dcc23c6ac74d0656cee0a02a65b",
+        "size_in_bytes": 247920
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cython/_zmq.pxd",
+        "path_type": "hardlink",
+        "sha256": "7efd6643a0f19c98215b95e00f8e5d3a7a245551f55034d5d14b39298b81a36f",
+        "sha256_in_prefix": "7efd6643a0f19c98215b95e00f8e5d3a7a245551f55034d5d14b39298b81a36f",
+        "size_in_bytes": 2186
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cython/_zmq.py",
+        "path_type": "hardlink",
+        "sha256": "3e0a234a525bf35c5bc1c7ad91daa2d25fddf2355e79dc4ec8b4ec1ad6dc2f19",
+        "sha256_in_prefix": "3e0a234a525bf35c5bc1c7ad91daa2d25fddf2355e79dc4ec8b4ec1ad6dc2f19",
+        "size_in_bytes": 58306
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cython/constant_enums.pxi",
+        "path_type": "hardlink",
+        "sha256": "2cd55ba2ff42e8606e26f5879dfa6a52398d4f4c7c6a54deb9bf3ce7ea3f988d",
+        "sha256_in_prefix": "2cd55ba2ff42e8606e26f5879dfa6a52398d4f4c7c6a54deb9bf3ce7ea3f988d",
+        "size_in_bytes": 7562
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/cython/libzmq.pxd",
+        "path_type": "hardlink",
+        "sha256": "a1f71c77766566f24beff51dd6054f1d3c65d4f0ceebd522bf196203c41c0fec",
+        "sha256_in_prefix": "a1f71c77766566f24beff51dd6054f1d3c65d4f0ceebd522bf196203c41c0fec",
+        "size_in_bytes": 4564
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/backend/select.py",
+        "path_type": "hardlink",
+        "sha256": "19b5d49d40b87dd6ebcfb188c6b68bc971fc03d32fd3fd9c14b5117b3bf9ca9b",
+        "sha256_in_prefix": "19b5d49d40b87dd6ebcfb188c6b68bc971fc03d32fd3fd9c14b5117b3bf9ca9b",
+        "size_in_bytes": 902
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/constants.py",
+        "path_type": "hardlink",
+        "sha256": "c44c915bc840d652e30c09cc8ce5af98a00542a658cda4d63bad9d03b6ad9db3",
+        "sha256_in_prefix": "c44c915bc840d652e30c09cc8ce5af98a00542a658cda4d63bad9d03b6ad9db3",
+        "size_in_bytes": 28341
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/decorators.py",
+        "path_type": "hardlink",
+        "sha256": "b0b7938f1b0d7278ca602b3252cc794720b45f649faa2df9e67bc10f32c3c466",
+        "sha256_in_prefix": "b0b7938f1b0d7278ca602b3252cc794720b45f649faa2df9e67bc10f32c3c466",
+        "size_in_bytes": 5099
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/devices/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "38381b65454689606ab0d63128ef84e2cdd0f04959207b6a1a1a6a80312b0e6c",
+        "sha256_in_prefix": "38381b65454689606ab0d63128ef84e2cdd0f04959207b6a1a1a6a80312b0e6c",
+        "size_in_bytes": 730
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/devices/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "d175658da3669a6dd87ff9925ea205508373e0d65fdbe270953e1fe613d753c7",
+        "sha256_in_prefix": "d175658da3669a6dd87ff9925ea205508373e0d65fdbe270953e1fe613d753c7",
+        "size_in_bytes": 822
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/devices/__pycache__/basedevice.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "bc1c6b9b42c6ac3f7370a61555b62f3029b5e45eb05c260ac887ff535e55a9ef",
+        "sha256_in_prefix": "bc1c6b9b42c6ac3f7370a61555b62f3029b5e45eb05c260ac887ff535e55a9ef",
+        "size_in_bytes": 13111
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/devices/__pycache__/monitoredqueue.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "e88782eaa7f1c5a1062cfa619266dd7a5dd15bd9124506841e17a6818d449169",
+        "sha256_in_prefix": "e88782eaa7f1c5a1062cfa619266dd7a5dd15bd9124506841e17a6818d449169",
+        "size_in_bytes": 1777
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/devices/__pycache__/monitoredqueuedevice.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a8bd916f7ccf99294bd807d28ef45f68db070988a2652d67e3d8f444b84a75a",
+        "sha256_in_prefix": "6a8bd916f7ccf99294bd807d28ef45f68db070988a2652d67e3d8f444b84a75a",
+        "size_in_bytes": 2832
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/devices/__pycache__/proxydevice.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "c99efe4046c0c4761297f4deb79fa4caa4690d533441da9b778eec60ca52eecb",
+        "sha256_in_prefix": "c99efe4046c0c4761297f4deb79fa4caa4690d533441da9b778eec60ca52eecb",
+        "size_in_bytes": 4591
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/devices/__pycache__/proxysteerabledevice.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "e4ae01f70a8d7e5dc5ba82bbbe99dd81d601ea06cdd7d37b90c7676935a2eca7",
+        "sha256_in_prefix": "e4ae01f70a8d7e5dc5ba82bbbe99dd81d601ea06cdd7d37b90c7676935a2eca7",
+        "size_in_bytes": 5065
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/devices/basedevice.py",
+        "path_type": "hardlink",
+        "sha256": "750f15301cb8f30a1b3fa40d3342a520af41b258fe04c7d0ff1cbdfcc271c944",
+        "sha256_in_prefix": "750f15301cb8f30a1b3fa40d3342a520af41b258fe04c7d0ff1cbdfcc271c944",
+        "size_in_bytes": 9562
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/devices/monitoredqueue.py",
+        "path_type": "hardlink",
+        "sha256": "6aed8437e7c52d70ef551142940612dead8b6fe2b15b791e4fd97cd96e41291a",
+        "sha256_in_prefix": "6aed8437e7c52d70ef551142940612dead8b6fe2b15b791e4fd97cd96e41291a",
+        "size_in_bytes": 1294
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/devices/monitoredqueuedevice.py",
+        "path_type": "hardlink",
+        "sha256": "a278d8f8bef8542fd88e9a620b80bfbe80606ee12d461b2d7536b2b7141ed782",
+        "sha256_in_prefix": "a278d8f8bef8542fd88e9a620b80bfbe80606ee12d461b2d7536b2b7141ed782",
+        "size_in_bytes": 1929
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/devices/proxydevice.py",
+        "path_type": "hardlink",
+        "sha256": "3020788feeb9bf28d22f2b6bcc459f076aba6192e7ff4df94b17e7b3d8f8cb24",
+        "sha256_in_prefix": "3020788feeb9bf28d22f2b6bcc459f076aba6192e7ff4df94b17e7b3d8f8cb24",
+        "size_in_bytes": 2843
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/devices/proxysteerabledevice.py",
+        "path_type": "hardlink",
+        "sha256": "6ad1c5e0745dec0fe541057caba787cd0fc1693f86bfa0f711a6e7375a7aeef4",
+        "sha256_in_prefix": "6ad1c5e0745dec0fe541057caba787cd0fc1693f86bfa0f711a6e7375a7aeef4",
+        "size_in_bytes": 3206
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/error.py",
+        "path_type": "hardlink",
+        "sha256": "f8cef3fd71bad2ff1a55ac0d7cbbcd82a28fefff62a77ed30c3890a8b3aed155",
+        "sha256_in_prefix": "f8cef3fd71bad2ff1a55ac0d7cbbcd82a28fefff62a77ed30c3890a8b3aed155",
+        "size_in_bytes": 5307
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/eventloop/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8f93e965d2c0c0bb700a1ac608464725827a649a04ccd04c97363daf92b9894c",
+        "sha256_in_prefix": "8f93e965d2c0c0bb700a1ac608464725827a649a04ccd04c97363daf92b9894c",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/eventloop/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "dab8e099b1e94dae3f3fc5744b19c6c68db30e8d18908546c3fc3f59084cfc9a",
+        "sha256_in_prefix": "dab8e099b1e94dae3f3fc5744b19c6c68db30e8d18908546c3fc3f59084cfc9a",
+        "size_in_bytes": 283
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/eventloop/__pycache__/_deprecated.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "792ab4e2e091c66d83732985ec71f2113663b4564b0449c60c3b709252931ecb",
+        "sha256_in_prefix": "792ab4e2e091c66d83732985ec71f2113663b4564b0449c60c3b709252931ecb",
+        "size_in_bytes": 9324
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/eventloop/__pycache__/future.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "8bc55ebdf005336c3206f4c366686c62c5c1340446b1a1f415d9dfe1592394c2",
+        "sha256_in_prefix": "8bc55ebdf005336c3206f4c366686c62c5c1340446b1a1f415d9dfe1592394c2",
+        "size_in_bytes": 5421
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/eventloop/__pycache__/ioloop.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "b2dce8505a4d8f30e3dda5c5458292c2eac62a17a9d3c90cb3bf4f83f7912ce5",
+        "sha256_in_prefix": "b2dce8505a4d8f30e3dda5c5458292c2eac62a17a9d3c90cb3bf4f83f7912ce5",
+        "size_in_bytes": 1025
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/eventloop/__pycache__/zmqstream.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "15e7c26a9731dc38151adeb2fab7c74146ba09f13751550218bf5c419e20e6fb",
+        "sha256_in_prefix": "15e7c26a9731dc38151adeb2fab7c74146ba09f13751550218bf5c419e20e6fb",
+        "size_in_bytes": 27981
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/eventloop/_deprecated.py",
+        "path_type": "hardlink",
+        "sha256": "9d335b457b4267d3d95dd4779b560f94caa0d35141f39453e04793e2f35dbb50",
+        "sha256_in_prefix": "9d335b457b4267d3d95dd4779b560f94caa0d35141f39453e04793e2f35dbb50",
+        "size_in_bytes": 6437
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/eventloop/future.py",
+        "path_type": "hardlink",
+        "sha256": "96e79a68f962571264bd36a4b27980264774f576547e2e28d189c042216c7222",
+        "sha256_in_prefix": "96e79a68f962571264bd36a4b27980264774f576547e2e28d189c042216c7222",
+        "size_in_bytes": 2612
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/eventloop/ioloop.py",
+        "path_type": "hardlink",
+        "sha256": "a66152a2a8d9532e34c1b89b9de4d8c320df572e376b515fbf3bacde975e954e",
+        "sha256_in_prefix": "a66152a2a8d9532e34c1b89b9de4d8c320df572e376b515fbf3bacde975e954e",
+        "size_in_bytes": 766
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/eventloop/zmqstream.py",
+        "path_type": "hardlink",
+        "sha256": "603024c0a8317dcc1810f8775780c33b82132656823f2427be562bffe7bfeafe",
+        "sha256_in_prefix": "603024c0a8317dcc1810f8775780c33b82132656823f2427be562bffe7bfeafe",
+        "size_in_bytes": 23417
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/green/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "56683b66fe2b5edf5d51b832ee91b1d5af2281614ca9c21646746bcd9ab7271e",
+        "sha256_in_prefix": "56683b66fe2b5edf5d51b832ee91b1d5af2281614ca9c21646746bcd9ab7271e",
+        "size_in_bytes": 1367
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/green/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "2eb0bdc0c789cad08cb4b3966827869c7df4f9ec30a8217eda73fb753beddc36",
+        "sha256_in_prefix": "2eb0bdc0c789cad08cb4b3966827869c7df4f9ec30a8217eda73fb753beddc36",
+        "size_in_bytes": 1098
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/green/__pycache__/core.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "f39f44d5c1f3501054c74a831ae25ba86e2335d6d1abe6fc3864e757d1b04429",
+        "sha256_in_prefix": "f39f44d5c1f3501054c74a831ae25ba86e2335d6d1abe6fc3864e757d1b04429",
+        "size_in_bytes": 13309
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/green/__pycache__/device.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "15c80dd9a628b3a6fc57232b77a1b63259d7e5ef7d60e631f56e547cb18c2536",
+        "sha256_in_prefix": "15c80dd9a628b3a6fc57232b77a1b63259d7e5ef7d60e631f56e547cb18c2536",
+        "size_in_bytes": 1319
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/green/__pycache__/poll.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "dd49fae22df69791e3eeed7183595264abeb6206f11409124542a17e4c83d752",
+        "sha256_in_prefix": "dd49fae22df69791e3eeed7183595264abeb6206f11409124542a17e4c83d752",
+        "size_in_bytes": 3849
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/green/core.py",
+        "path_type": "hardlink",
+        "sha256": "3ecbc3cf65441be52cc5f24f5382e8718b3dfe68dae67bc3e234cf342303fecc",
+        "sha256_in_prefix": "3ecbc3cf65441be52cc5f24f5382e8718b3dfe68dae67bc3e234cf342303fecc",
+        "size_in_bytes": 10808
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/green/device.py",
+        "path_type": "hardlink",
+        "sha256": "1d3b5dcb210da3c68eb699259280e77d254929b3395e1ffe28c2596c89998124",
+        "sha256_in_prefix": "1d3b5dcb210da3c68eb699259280e77d254929b3395e1ffe28c2596c89998124",
+        "size_in_bytes": 978
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/green/eventloop/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "375dec467425243a36803ef4a8f3593fbb9cfc410c02313a8436be48b84a8f4b",
+        "sha256_in_prefix": "375dec467425243a36803ef4a8f3593fbb9cfc410c02313a8436be48b84a8f4b",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/green/eventloop/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "e81a940e7341873a9d5df11190dfa891d2f3cb2e20a59e8a2b5bf5b57944247a",
+        "sha256_in_prefix": "e81a940e7341873a9d5df11190dfa891d2f3cb2e20a59e8a2b5bf5b57944247a",
+        "size_in_bytes": 244
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/green/eventloop/__pycache__/ioloop.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "b29cc7b6e07460bfa9497300130d601fe74bd8c0a108db1f14e1a3c75f1415ec",
+        "sha256_in_prefix": "b29cc7b6e07460bfa9497300130d601fe74bd8c0a108db1f14e1a3c75f1415ec",
+        "size_in_bytes": 197
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/green/eventloop/__pycache__/zmqstream.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "cfe4ce3b0816d78ab4751474fbaf6efe14d7d44e9f7741a8a308f36e9d06dd03",
+        "sha256_in_prefix": "cfe4ce3b0816d78ab4751474fbaf6efe14d7d44e9f7741a8a308f36e9d06dd03",
+        "size_in_bytes": 896
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/green/eventloop/ioloop.py",
+        "path_type": "hardlink",
+        "sha256": "acd26f3d9b05f926695c5124ed3f035d4139c8c17196d1791c4f6a6640a6b9f7",
+        "sha256_in_prefix": "acd26f3d9b05f926695c5124ed3f035d4139c8c17196d1791c4f6a6640a6b9f7",
+        "size_in_bytes": 43
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/green/eventloop/zmqstream.py",
+        "path_type": "hardlink",
+        "sha256": "dcb1863a9f4bc743b1aec88d371b788ddccd009bd764d30b76539872cac3cfc7",
+        "sha256_in_prefix": "dcb1863a9f4bc743b1aec88d371b788ddccd009bd764d30b76539872cac3cfc7",
+        "size_in_bytes": 291
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/green/poll.py",
+        "path_type": "hardlink",
+        "sha256": "efb26977b87e4c9d192c4eef9b527b85f25f4429b7048e3570be426265331f50",
+        "sha256_in_prefix": "efb26977b87e4c9d192c4eef9b527b85f25f4429b7048e3570be426265331f50",
+        "size_in_bytes": 2996
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/log/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/log/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "16c1de905f6aaa77e10e41af97ccd55b152e7242f14eab9bc4cafa1a3b82c930",
+        "sha256_in_prefix": "16c1de905f6aaa77e10e41af97ccd55b152e7242f14eab9bc4cafa1a3b82c930",
+        "size_in_bytes": 4005
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/log/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "89c03b9742bda7b61738ab6e0a727a0340011acfe7b92ff6dcaef2273546d75a",
+        "sha256_in_prefix": "89c03b9742bda7b61738ab6e0a727a0340011acfe7b92ff6dcaef2273546d75a",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/log/__pycache__/__main__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "928ffae8da15ad9886cbdb4ac1d2608d984fc9bc392de6d6408213d8f45b47a3",
+        "sha256_in_prefix": "928ffae8da15ad9886cbdb4ac1d2608d984fc9bc392de6d6408213d8f45b47a3",
+        "size_in_bytes": 5614
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/log/__pycache__/handlers.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "eaa64ed7210708c8aec020e3e3dcb997d639a9b2102ccb39ab53344748c58c4b",
+        "sha256_in_prefix": "eaa64ed7210708c8aec020e3e3dcb997d639a9b2102ccb39ab53344748c58c4b",
+        "size_in_bytes": 9164
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/log/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "3cb749bf337727aa60d59e2689e77a471c282a85ba545f2fcf59a2bd3325ef86",
+        "sha256_in_prefix": "3cb749bf337727aa60d59e2689e77a471c282a85ba545f2fcf59a2bd3325ef86",
+        "size_in_bytes": 7228
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/ssh/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d9672bd7c6bc852e508f0867d69e9261be8d303222ed8e3c2515e0e7a894d1f2",
+        "sha256_in_prefix": "d9672bd7c6bc852e508f0867d69e9261be8d303222ed8e3c2515e0e7a894d1f2",
+        "size_in_bytes": 29
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/ssh/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "6e05026a0b85055887d0d02e44b9130c558cd3138763c03a4ab9413a302462f6",
+        "sha256_in_prefix": "6e05026a0b85055887d0d02e44b9130c558cd3138763c03a4ab9413a302462f6",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/ssh/__pycache__/forward.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "62f56c55ab703e9f21fc23a8f4ba2ca5fde6ccc517003a61d85214f9631ebbc9",
+        "sha256_in_prefix": "62f56c55ab703e9f21fc23a8f4ba2ca5fde6ccc517003a61d85214f9631ebbc9",
+        "size_in_bytes": 3786
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/ssh/__pycache__/tunnel.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "13682085a28c2a0eafb49486efe95d898e70710e13419037a2345c9330e3485c",
+        "sha256_in_prefix": "13682085a28c2a0eafb49486efe95d898e70710e13419037a2345c9330e3485c",
+        "size_in_bytes": 15633
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/ssh/forward.py",
+        "path_type": "hardlink",
+        "sha256": "04e3c69c31b564c478f16d228601f4fd1c3accf6fb5fea6b7650290a741b2414",
+        "sha256_in_prefix": "04e3c69c31b564c478f16d228601f4fd1c3accf6fb5fea6b7650290a741b2414",
+        "size_in_bytes": 3280
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/ssh/tunnel.py",
+        "path_type": "hardlink",
+        "sha256": "482bab0956f85a4285665baa0ca4333244ec9a533448744d9e8e5f50d464ad49",
+        "sha256_in_prefix": "482bab0956f85a4285665baa0ca4333244ec9a533448744d9e8e5f50d464ad49",
+        "size_in_bytes": 13357
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/sugar/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e750a7622fc647b4a5650abf98fe83dbd259a62f1c0fbe92c4ef8807b4e3a3a2",
+        "sha256_in_prefix": "e750a7622fc647b4a5650abf98fe83dbd259a62f1c0fbe92c4ef8807b4e3a3a2",
+        "size_in_bytes": 721
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/sugar/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "17f25822e72e80252e5e293f15255fcd65c80b2b87d720f396c85c6516fc6c35",
+        "sha256_in_prefix": "17f25822e72e80252e5e293f15255fcd65c80b2b87d720f396c85c6516fc6c35",
+        "size_in_bytes": 219
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/sugar/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "bdfbd9a7c81999c53dcbe4fe1c1495e280ad6b6db117fbf7c7ea24005fa9f6df",
+        "sha256_in_prefix": "bdfbd9a7c81999c53dcbe4fe1c1495e280ad6b6db117fbf7c7ea24005fa9f6df",
+        "size_in_bytes": 874
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/sugar/__pycache__/attrsettr.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "44f1083c96ce3b542f54f3ed4ddcc08fd8562152f367e9bfe62d218f242b1b85",
+        "sha256_in_prefix": "44f1083c96ce3b542f54f3ed4ddcc08fd8562152f367e9bfe62d218f242b1b85",
+        "size_in_bytes": 3669
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/sugar/__pycache__/context.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "5efdadb281d0879f49dd2d935502100783ab8e15c5d6de66bdbd7dd3ed50d702",
+        "sha256_in_prefix": "5efdadb281d0879f49dd2d935502100783ab8e15c5d6de66bdbd7dd3ed50d702",
+        "size_in_bytes": 16436
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/sugar/__pycache__/frame.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "0760c811b9f27ce5fcd1be1790c8a73575acc742485d4ccfd68ad6170caf4801",
+        "sha256_in_prefix": "0760c811b9f27ce5fcd1be1790c8a73575acc742485d4ccfd68ad6170caf4801",
+        "size_in_bytes": 5154
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/sugar/__pycache__/poll.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "b5bb9c272eacfe211eaafdd5559140a646ccb24a0dc3f73e2d6750ba03b65dd0",
+        "sha256_in_prefix": "b5bb9c272eacfe211eaafdd5559140a646ccb24a0dc3f73e2d6750ba03b65dd0",
+        "size_in_bytes": 6280
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/sugar/__pycache__/socket.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "368e93d78f6b8c02b2c3ef4e3e633bfa88f2571e76066bc319b34241d156f4de",
+        "sha256_in_prefix": "368e93d78f6b8c02b2c3ef4e3e633bfa88f2571e76066bc319b34241d156f4de",
+        "size_in_bytes": 39345
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/sugar/__pycache__/stopwatch.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "664132a4bc543d125f2d6b66159af3c16c64a8034f1a30760b8e64c448a343cd",
+        "sha256_in_prefix": "664132a4bc543d125f2d6b66159af3c16c64a8034f1a30760b8e64c448a343cd",
+        "size_in_bytes": 1621
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/sugar/__pycache__/tracker.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "fabae8a6d7aaf784c84c0d225326194600a93892b7d5d5561545efecc321103f",
+        "sha256_in_prefix": "fabae8a6d7aaf784c84c0d225326194600a93892b7d5d5561545efecc321103f",
+        "size_in_bytes": 4421
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/sugar/__pycache__/version.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "b9d3b9e05235d3d261f28caac05343750b4c1bd5b3fdc9e18569c8a4895e225e",
+        "sha256_in_prefix": "b9d3b9e05235d3d261f28caac05343750b4c1bd5b3fdc9e18569c8a4895e225e",
+        "size_in_bytes": 2098
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/sugar/attrsettr.py",
+        "path_type": "hardlink",
+        "sha256": "2cbdcc8d4166d935b85584ec9afd45c04013337430fcc193eacf5f07598155e9",
+        "sha256_in_prefix": "2cbdcc8d4166d935b85584ec9afd45c04013337430fcc193eacf5f07598155e9",
+        "size_in_bytes": 2638
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/sugar/context.py",
+        "path_type": "hardlink",
+        "sha256": "6570b418f00a206313434b9e32ea1e432d9b752e04a1fae3caf749e98ab97797",
+        "sha256_in_prefix": "6570b418f00a206313434b9e32ea1e432d9b752e04a1fae3caf749e98ab97797",
+        "size_in_bytes": 14644
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/sugar/frame.py",
+        "path_type": "hardlink",
+        "sha256": "d9606e464c32ec4d6a6bc008417e0052b70a6d35566c15831608f593a77fcb74",
+        "sha256_in_prefix": "d9606e464c32ec4d6a6bc008417e0052b70a6d35566c15831608f593a77fcb74",
+        "size_in_bytes": 4257
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/sugar/poll.py",
+        "path_type": "hardlink",
+        "sha256": "eea427513b5024bf083794b655e0748e17a8a942a9dfba4cdb4ca3b7816fe8fe",
+        "sha256_in_prefix": "eea427513b5024bf083794b655e0748e17a8a942a9dfba4cdb4ca3b7816fe8fe",
+        "size_in_bytes": 5752
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/sugar/socket.py",
+        "path_type": "hardlink",
+        "sha256": "1b8a3f50791583d77bc852a841ad8c97d2fceb891ddfe29de569594d3de29883",
+        "sha256_in_prefix": "1b8a3f50791583d77bc852a841ad8c97d2fceb891ddfe29de569594d3de29883",
+        "size_in_bytes": 34602
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/sugar/stopwatch.py",
+        "path_type": "hardlink",
+        "sha256": "8b50a0f7a68fcec8879944c0644812b22679a9027baf0fa9160888609a095358",
+        "sha256_in_prefix": "8b50a0f7a68fcec8879944c0644812b22679a9027baf0fa9160888609a095358",
+        "size_in_bytes": 935
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/sugar/tracker.py",
+        "path_type": "hardlink",
+        "sha256": "ada64ac89737498c65635eee010a483e41d468d93b6edf5cc2d758ba02ddf104",
+        "sha256_in_prefix": "ada64ac89737498c65635eee010a483e41d468d93b6edf5cc2d758ba02ddf104",
+        "size_in_bytes": 3603
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/sugar/version.py",
+        "path_type": "hardlink",
+        "sha256": "5b9fc285abdce2d7a1a3e2e8cc17a6b0de5736720ba714c7097303ec499f5fdd",
+        "sha256_in_prefix": "5b9fc285abdce2d7a1a3e2e8cc17a6b0de5736720ba714c7097303ec499f5fdd",
+        "size_in_bytes": 1620
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5518be442c00a7351ab08debb952e67510d3585fa2444de5631b27ac316b37a9",
+        "sha256_in_prefix": "5518be442c00a7351ab08debb952e67510d3585fa2444de5631b27ac316b37a9",
+        "size_in_bytes": 8004
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/tests/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "7f23a821056aac384dbc86bc12c673ebfbfb3dbe56ef594dfb757b54801b518d",
+        "sha256_in_prefix": "7f23a821056aac384dbc86bc12c673ebfbfb3dbe56ef594dfb757b54801b518d",
+        "size_in_bytes": 13158
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/utils/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "e14cb97f6180f0d8bfb5961b854d8959f4748a437d2c726ced6cda5a8de34972",
+        "sha256_in_prefix": "e14cb97f6180f0d8bfb5961b854d8959f4748a437d2c726ced6cda5a8de34972",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/utils/__pycache__/garbage.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "001ec8d0117f95dedebfe7dbb7d5f9a75e08e1a50fa388bf8d34846c0db6cf87",
+        "sha256_in_prefix": "001ec8d0117f95dedebfe7dbb7d5f9a75e08e1a50fa388bf8d34846c0db6cf87",
+        "size_in_bytes": 9785
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/utils/__pycache__/interop.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "7cdaed64bd0dcd548aefca61cf882e3007566d7bcbf849b3b6e300abacb4e4ce",
+        "sha256_in_prefix": "7cdaed64bd0dcd548aefca61cf882e3007566d7bcbf849b3b6e300abacb4e4ce",
+        "size_in_bytes": 1035
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/utils/__pycache__/jsonapi.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "f26110aac1041b38bda23dbbe9349da5032e0b4c99d9fe65e17f42316524445c",
+        "sha256_in_prefix": "f26110aac1041b38bda23dbbe9349da5032e0b4c99d9fe65e17f42316524445c",
+        "size_in_bytes": 1450
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/utils/__pycache__/monitor.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "84d7893f3ca125a4979d74035c3f1cb4d76c443ae0c126dace8ff94e5c5948d5",
+        "sha256_in_prefix": "84d7893f3ca125a4979d74035c3f1cb4d76c443ae0c126dace8ff94e5c5948d5",
+        "size_in_bytes": 4189
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/utils/__pycache__/strtypes.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "54d82b71874a5b756be35159e33d2632a9231d518df046b21ccb804fbd726cb2",
+        "sha256_in_prefix": "54d82b71874a5b756be35159e33d2632a9231d518df046b21ccb804fbd726cb2",
+        "size_in_bytes": 1589
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/utils/__pycache__/win32.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "c3c1fe1b451be88ed02ca17b13b1511c05f579fe504726f7491f6bcd6856b81a",
+        "sha256_in_prefix": "c3c1fe1b451be88ed02ca17b13b1511c05f579fe504726f7491f6bcd6856b81a",
+        "size_in_bytes": 4821
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/utils/__pycache__/z85.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae81f2597bc06d14cc18a9a20bcf51ad6f9b648fd86ed952a4b92649b513f13b",
+        "sha256_in_prefix": "ae81f2597bc06d14cc18a9a20bcf51ad6f9b648fd86ed952a4b92649b513f13b",
+        "size_in_bytes": 2715
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/utils/buffers.pxd",
+        "path_type": "hardlink",
+        "sha256": "ad5ef30d0f444a5307d74e30866f37af4d6cf1a978fc018511090caa250b4a18",
+        "sha256_in_prefix": "ad5ef30d0f444a5307d74e30866f37af4d6cf1a978fc018511090caa250b4a18",
+        "size_in_bytes": 7031
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/utils/garbage.py",
+        "path_type": "hardlink",
+        "sha256": "85f05c60d849ba6ed3716e24b472566bb0a83670ef49115ce0ae482bb220b966",
+        "sha256_in_prefix": "85f05c60d849ba6ed3716e24b472566bb0a83670ef49115ce0ae482bb220b966",
+        "size_in_bytes": 6124
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/utils/getpid_compat.h",
+        "path_type": "hardlink",
+        "sha256": "7a6bdc90f7d2958782a143607d84e40160b889ef8b5cb4675c334b957c5768f2",
+        "sha256_in_prefix": "7a6bdc90f7d2958782a143607d84e40160b889ef8b5cb4675c334b957c5768f2",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/utils/interop.py",
+        "path_type": "hardlink",
+        "sha256": "97802c2e60f3dd41e6b878f073910467ad4fff9e8719521583cf0b8f8c278cf9",
+        "sha256_in_prefix": "97802c2e60f3dd41e6b878f073910467ad4fff9e8719521583cf0b8f8c278cf9",
+        "size_in_bytes": 685
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/utils/ipcmaxlen.h",
+        "path_type": "hardlink",
+        "sha256": "abe6065f904408bfd0a4eccec77a02fc8f2670d0966c927a16752b74a946d5f5",
+        "sha256_in_prefix": "abe6065f904408bfd0a4eccec77a02fc8f2670d0966c927a16752b74a946d5f5",
+        "size_in_bytes": 522
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/utils/jsonapi.py",
+        "path_type": "hardlink",
+        "sha256": "d86d6431cdc45bf6388d21ff0f06734ad8bc971ce9453c74da42eb0e89150d20",
+        "sha256_in_prefix": "d86d6431cdc45bf6388d21ff0f06734ad8bc971ce9453c74da42eb0e89150d20",
+        "size_in_bytes": 1025
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/utils/monitor.py",
+        "path_type": "hardlink",
+        "sha256": "ae2b5391413ca86956663519dde7e528e888ed6389645be628dc06ddddd80b3b",
+        "sha256_in_prefix": "ae2b5391413ca86956663519dde7e528e888ed6389645be628dc06ddddd80b3b",
+        "size_in_bytes": 3310
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/utils/mutex.h",
+        "path_type": "hardlink",
+        "sha256": "b57ff43540c3bfdb3dd490c3156ed4421db0beaa9a2b32fd117edd2549d07e2e",
+        "sha256_in_prefix": "b57ff43540c3bfdb3dd490c3156ed4421db0beaa9a2b32fd117edd2549d07e2e",
+        "size_in_bytes": 1625
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/utils/pyversion_compat.h",
+        "path_type": "hardlink",
+        "sha256": "e05910f79515980fdab3d941ac83bbfb03390f4b448a754095899996cfd2453d",
+        "sha256_in_prefix": "e05910f79515980fdab3d941ac83bbfb03390f4b448a754095899996cfd2453d",
+        "size_in_bytes": 284
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/utils/strtypes.py",
+        "path_type": "hardlink",
+        "sha256": "b1dd3e7091ae0e7b5801c04c3bfbaa580c2fb0e246a7c597b9d333de72515140",
+        "sha256_in_prefix": "b1dd3e7091ae0e7b5801c04c3bfbaa580c2fb0e246a7c597b9d333de72515140",
+        "size_in_bytes": 1376
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/utils/win32.py",
+        "path_type": "hardlink",
+        "sha256": "68140585f66e357be41c4b62631e5ca82025dcc925d2a8ec4739682304762bdd",
+        "sha256_in_prefix": "68140585f66e357be41c4b62631e5ca82025dcc925d2a8ec4739682304762bdd",
+        "size_in_bytes": 4940
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/utils/z85.py",
+        "path_type": "hardlink",
+        "sha256": "00cfe5e1fc60cc0f36dd111368a8f5411f1c8b782da3e168aaf466e2acf10d72",
+        "sha256_in_prefix": "00cfe5e1fc60cc0f36dd111368a8f5411f1c8b782da3e168aaf466e2acf10d72",
+        "size_in_bytes": 1838
+      },
+      {
+        "_path": "lib/python3.13/site-packages/zmq/utils/zmq_compat.h",
+        "path_type": "hardlink",
+        "sha256": "82caa4e04563756b1ab4bae1c4502ed901e052241e9ae86a33e66d554e054951",
+        "sha256_in_prefix": "82caa4e04563756b1ab4bae1c4502ed901e052241e9ae86a33e66d554e054951",
+        "size_in_bytes": 3184
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0fbe80ac4e6d110e82f84fb2466ceace16ba4b9cb175d5945cb9055454b3c06a",
+  "size": 365164,
+  "subdir": "osx-arm64",
+  "timestamp": 1728642544000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/pyzmq-26.2.0-py313h0e8b002_3.conda",
+  "version": "26.2.0"
+}
